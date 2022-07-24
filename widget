@@ -58,11 +58,11 @@
     var greet;
 
     if (hrs < 12)
-        greet = 'ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ, ʀᴜʙʏ  ';
+        greet = 'good morning, rubʏ  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ, ʀᴜʙʏ ';
+        greet = 'good afternoon, ruby ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ, ʀᴜʙʏ  ';
+        greet = 'good evening, ruby  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
